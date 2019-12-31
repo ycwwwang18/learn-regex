@@ -228,7 +228,7 @@
 ## 2.4 `{}` 号
 
 在正则表达式中 `{}` 是一个量词，常用来一个或一组字符可以重复出现的次数。
-例如， 表达式 `[0-9]{2,3}` 匹配最少 2 位最多 3 位 0~9 的数字。
+例如， 表达式 `[0-9]{2,3}` 匹配最少 2 位最多 3 位 0~9 的数字,并且它会匹配最多的重复次数。
 
 <pre>
 "[0-9]{2,3}" => The number was 9.<a href="#learn-regex"><strong>999</strong></a>7 but we rounded it off to <a href="#learn-regex"><strong>10</strong></a>.0.
